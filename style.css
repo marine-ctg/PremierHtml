@@ -1,0 +1,155 @@
+@font-face {
+  font-family: kitahara;
+  src: url(/assets/fonts/KitaharaScript.ttf);
+}
+
+
+/* L'étoile donne du style à TOUS les éléments */
+/* * {
+  margin: 0;
+  padding: 0;
+  border: 2px solid red;
+} */
+
+body {
+    background: url(/fd.jpg) center/cover ;
+    /* /* VH = 100% de la taille de l'écran (viewport height) */
+    /* min-height: 100vh; */
+  }
+
+  
+  h1 {
+    min-height: 100px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-align: center;
+    color: #ECE8DF;
+    margin: 0 auto;
+    font-family: 'kitahara';
+    background-color: #8f9e81;
+    font-size: 10vw;
+    text-shadow: -6px 3px 0 #ece8df57;
+  }
+  p{
+    text-align: center;
+    font-family: 'Bodoni Moda', serif;
+  }
+ 
+  main {
+     min-height: 500px;
+     width: 90%;
+     margin: auto;
+     padding: 10px;
+
+  }
+
+  h2{
+    font-size: 8vw;
+    margin: 0;
+    font-family: kitahara;
+  }
+  .container-img {
+    border: 2px solid gray;
+    box-shadow: -5px 3px 0 #80808096;
+    border-radius: 20%;
+  
+  }
+  
+  .flexbox,
+  .absolut,
+  .grid {
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    background: url(/assets/img/fd.jpg) center/cover
+  }
+
+  /* FLEXBOX */
+  /* sert a répartir équitablement sur la page */
+
+.flexbox li {
+  list-style: none;
+  height: 160px;
+  width: 160px;
+  margin: 10px;
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+}
+
+
+
+  .absolut ta {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  .grid-container {
+    /* grid = grill */
+    display: grid;
+    grid-template-columns: 40% 60%;
+    text-align: center;
+  }
+
+  .grid img {
+    width: 80%;
+    margin-top: 100px;
+    align-items: center;
+  }
+  
+  form {
+    display: grid;
+    grid-template-areas: 
+    "radio"
+    "select"
+    "input"
+    "input"
+    "textarea"
+    "checkbox"
+    "buttom";
+
+  }
+ 
+  select, input, textarea {
+    margin: 5px;
+    border: 1px solid;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: bodoni moda;
+    
+  }
+
+  section {
+    height: 10;
+    text-align: center;
+    object-fit: contain;
+    font-family: bodoni moda ;
+    color: black;
+  }
+ 
+  textarea {
+    height: 40px;
+    resize: none;
+    font-family: bodoni moda;
+
+  }
+
+  #btn-submit {
+    cursor: pointer;
+    background: gray;
+    transition: 0.2s;
+  }
+
+  #btn-submit:hover {
+    background: rgb(59, 59, 59);
+    color: white;
+  }
+
+
+  
+  

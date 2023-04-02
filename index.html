@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ma Page</title>
+    <link rel="shortcut icon" href="Logo-LOGO.png" />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Old+Standard+TT&display=swap" rel="stylesheet">
+
+    
+
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  
+  
+
+  <body>
+  
+    <header>
+      <h1>Bienvenue </h1>
+      <p>____________________   Site internet   ____________________ </p>
+    </header>
+
+    <main>
+
+      <div class="flexbox">
+        <h2>Articles</h2>
+        <div class="container">
+          <ol>
+            <li> <img src="/fond.jpg" alt="img" height="120"></li>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aspernatur quod tempore culpa, sequi corrupti optio, quo vel totam ipsam tenetur minus explicabo quis officiis rerum eum maxime sit sint.</p>
+            <li> <img src="th.jpg" alt="img" height="130"></li>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos atque error voluptates necessitatibus possimus odio iure rerum eligendi. Voluptas excepturi dolore distinctio quae consequuntur aliquam, quibusdam placeat odio laudantium quo.</p>
+            <li> <img src="tj.jpg" alt="img" height="140"></li>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia totam, assumenda dignissimos nobis unde earum velit quae, doloremque cupiditate iusto non, minus expedita eaque ea fugit soluta culpa in ex.</p>
+        </ol>
+        </div>
+      </div>
+      
+
+      <div class="absolut">
+        <h2>Tarifs</h2> <br>
+        <table border="1" width="100% 30% 30%">
+          <!-- légende-->
+          <caption>
+            All inclusive pour 1 semaine pour 2 pers
+          </caption> 
+          <!-- En tête -->
+          <thead>
+            <tr>
+              <th>Destination</th>
+              <th>Vol*</th>
+              <th>Hotel*</th>
+            </tr>
+          </thead>
+          <!-- Corps du tableau-->
+          <tbody>
+            <tr>
+              <td>Ile de la Réunion</td>
+              <td>771€</td>
+              <td>486€</td>
+            </tr>
+            <tr>
+              <td>Ile Maurice</td>
+              <td>953€</td>
+              <td>588€</td>
+            </tr>
+            <tr>
+              <td>Cuba</td>
+              <td>707€</td>
+              <td>421€</td>
+            </tr>
+          </tbody>
+        </table>
+<br>
+        *Tarifs à partir de...
+        Départ Paris Orly.
+
+
+      </div>
+      
+      <div class="grid">
+        <h2>Votre demande de devis</h2>
+        <div class="grid-container">
+          <img src="/tache.png" alt="tache">
+
+
+          <form action="">
+            <div>
+              <p>Choisissez votre déstination:</p>
+              <input type="radio" name="destination" checked id="reunion">
+              <label for="ile de la Reunion">Ile de la Réunion</label>
+<br>
+              <input type="radio" name="destination" id="maurice">
+              <label for="maurice">Ile Maurice</label>
+<br>
+              <input type="radio" name="destination" id="cuba">
+              <label for="cuba">Cuba</label>
+          </div>
+          <br>
+            <select id="gender">
+                <option value="homme">Homme</option>
+                <option selected value="femme">Femme</option>
+            </select>
+            <br>
+            <input type="text" id="firstname" placeholder="Prénom">
+            <input type="text" id="surname" placeholder="Nom">
+            <textarea cols="30" rows="10" placeholder="Ici votre message"></textarea>
+            <br>
+            <label><input type="checkbox"/>Accepter les CGV</label>
+            <input type="submit" value="Valider" id="btn-submit">
+          </form>
+          <form action="/action.php" method="post">
+        </form>
+        </div>
+      </div>
+
+
+
+    <section>
+      <div class="grid">
+        <h2>Mes Coordonnées</h2>
+        <br>
+      <br>
+      <div>
+        <a
+           href="https://instagram.com/marine_ctg?igshid=YmMyMTA2M2Y="
+          target="_blank"
+          >Mon Instagram</a>
+        <br>
+        <a href="mailto:cathala.marine@yahoo.fr">Ecrivez-moi !</a>
+    </footer>
+       
+  </section>
+
+  </body>
+  <div class="video"> 
+  <video
+  src="avion-video.MP4"
+  min-height="25vh"
+  height="200"
+  autoplay
+  loop
+  muted
+></video>
+</div>
+    </main>
+</html>
